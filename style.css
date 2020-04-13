@@ -144,3 +144,7 @@ span.item-subtitle {
   font-size: 0.7em;
   color: #b38ee8;
 }
+
+img.circle-image {
+  clip-path: circle(100px at center);
+}
