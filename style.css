@@ -1,0 +1,146 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Avenir Next", arial, sans-serif;
+  background: #edeafd;
+  margin: 0;
+  padding: 0;
+  color: #9d71da;
+  text-align: center;
+  font-size: 1em;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 3em;
+  font-style: italic;
+  color: #603a94;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0px;
+  padding: 0px;
+  color: #603a94;
+}
+
+h3 {
+  padding: 0px;
+  font-size: 1.6em;
+  color: #603a94;
+}
+
+div.content {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+}
+
+div.standard {
+/*   padding: 32px 32px 32px 32px; */
+  margin: 0;
+  width: 100%;
+}
+
+
+div.alternate {
+/*   padding: 32px 32px 32px 32px; */
+  margin: 0;
+  background: #e4d7f5;
+  width: 100%
+}
+
+ul {
+  list-style-type: none;
+  margin: 32px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+li {
+  margin: 4px;
+}
+
+a:link {
+  color: #603a94;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b0962b;
+  text-decoration: none;
+}
+
+div.item {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  min-height: 50px;
+  font-size: 1.3em;
+}
+
+div.item p {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+}
+
+div.item-left, div.item-left-large {
+  font-weight: bold;
+  line-height: 24px;
+}
+
+div.item-left-small {
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 0.7em;
+}
+
+
+div.item-right {
+  line-height: 24px;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 639px) {
+  div.item-left, div.item-left-small, div.item-left-large, div.item-right {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 640px) {
+  div.item-left-large {
+    text-align: left;
+    width: 480px;    
+  }
+  div.item-left, div.item-left-small {
+    text-align: left;
+    width: 270px;
+  }
+  div.item-right {
+    text-align: right;      
+    width: 310px;
+  }
+}
+
+
+span.item-subtitle {
+  font-size: 0.7em;
+  color: #b38ee8;
+}
