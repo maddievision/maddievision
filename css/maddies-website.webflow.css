@@ -75,9 +75,12 @@ a:focus {
 }
 
 .link-card {
-  max-width: 180px;
+  max-width: 160px;
   min-height: 0px;
-  min-width: 180px;
+  min-width: 160px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
   padding: 20px 10px;
   border-radius: 14px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.19)), to(hsla(0, 0%, 100%, 0.09)));
@@ -247,7 +250,7 @@ a:focus {
 }
 
 .grid-2 {
-  margin: 60px 60px 140px;
+  margin: 60px 100px 140px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -260,12 +263,19 @@ a:focus {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(180px, 1fr));
 }
 
 .text-block-2 {
   line-height: 1.6em;
+}
+
+#w-node-d6d26f08-c173-d5a6-d2d4-180375354f8d-8029d601 {
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
 }
 
 #w-node-bc9cc9cc-f01b-3ab6-6573-7cf37ad29906-8029d601:focus {
