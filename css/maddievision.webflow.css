@@ -273,8 +273,8 @@ strong {
 }
 
 .paragraph {
-  margin-top: 15px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
