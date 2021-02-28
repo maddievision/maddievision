@@ -1,0 +1,256 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  -webkit-transition: all 200ms cubic-bezier(.215, .61, .355, 1);
+  transition: all 200ms cubic-bezier(.215, .61, .355, 1);
+  color: #603a94;
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-perspective: 0px;
+  perspective: 0px;
+  -webkit-transform: perspective(0px) scale(1.025);
+  transform: perspective(0px) scale(1.025);
+  color: #947bb6;
+}
+
+a:focus {
+  color: #c19af7;
+}
+
+.body {
+  background-color: #edeafd;
+  font-family: Comfortaa, sans-serif;
+  color: #603a94;
+}
+
+.image {
+  border-radius: 100px;
+}
+
+.container {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.linked-list {
+  line-height: 30px;
+  text-align: center;
+}
+
+.heading {
+  line-height: 80px;
+}
+
+.bold-text {
+  text-decoration: none;
+}
+
+.link {
+  position: relative;
+}
+
+.link-card {
+  max-width: 180px;
+  min-height: 0px;
+  min-width: 180px;
+  padding: 20px 10px;
+  border-radius: 14px;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+}
+
+.link-card:hover {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.link-card.music {
+  background-color: #e59524;
+  color: #ffeacc;
+}
+
+.link-card.music:hover {
+  color: #fffbf5;
+}
+
+.link-card.musings {
+  background-color: #008667;
+  color: #aeffed;
+}
+
+.link-card.musings:hover {
+  color: #cffff4;
+}
+
+.link-card.linkedin {
+  overflow: visible;
+  background-color: #4577ff;
+  color: #b6caff;
+}
+
+.link-card.linkedin:hover {
+  color: #e9efff;
+}
+
+.link-card.beat-saber {
+  background-color: #001e46;
+  color: #82b7ff;
+}
+
+.link-card.beat-saber:hover {
+  color: #bfdaff;
+}
+
+.link-card.games {
+  background-color: #5a008a;
+  color: #e7baff;
+}
+
+.link-card.games:hover {
+  color: #f2dbff;
+}
+
+.link-card.twitter {
+  background-color: #209eff;
+  color: #c8e7ff;
+}
+
+.link-card.twitter:hover {
+  color: #e7f5ff;
+}
+
+.link-card.instagram {
+  background-color: #c5006c;
+  color: #ffb7df;
+}
+
+.link-card.instagram:hover {
+  color: #ffdbf2;
+}
+
+.link-card.observable {
+  background-color: #3a3a3a;
+  color: silver;
+}
+
+.link-card.observable:hover {
+  color: #e9e9e9;
+}
+
+.link-card.github {
+  background-color: #220170;
+  color: #c3aaff;
+}
+
+.link-card.github:hover {
+  color: #e8deff;
+}
+
+.link-card.youtube {
+  background-color: #960000;
+  color: #ffa0a0;
+}
+
+.link-card.youtube:hover {
+  color: #ffe6e6;
+}
+
+.link-card.email {
+  background-color: #004142;
+  color: #a7feff;
+}
+
+.link-card.email:hover {
+  color: #dbfeff;
+}
+
+.link-card.discord {
+  background-color: #5d70ff;
+  color: #d6dbff;
+}
+
+.link-card.discord:hover {
+  color: #eef0ff;
+}
+
+.link-content {
+  margin-top: 20px;
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+.link-content.prose {
+  line-height: 1.2em;
+}
+
+.text-block {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.grid {
+  overflow: visible;
+  margin: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  -ms-grid-columns: minmax(200px, 1fr) 1fr 1fr 1fr;
+  grid-template-columns: minmax(200px, 1fr) 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto 1fr;
+  grid-template-rows: auto auto 1fr;
+}
+
+.grid-2 {
+  margin: 60px 60px 140px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.text-block-2 {
+  line-height: 1.6em;
+}
+
