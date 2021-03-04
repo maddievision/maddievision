@@ -13,8 +13,6 @@
 a {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 10px;
-  padding-right: 10px;
   -webkit-transition: all 200ms cubic-bezier(.215, .61, .355, 1);
   transition: all 200ms cubic-bezier(.215, .61, .355, 1);
   color: #d476ff;
@@ -218,13 +216,17 @@ strong {
   line-height: 1.2em;
 }
 
+.link-content.prose.under-emoji {
+  margin-top: 0px;
+}
+
 .text-block {
   font-size: 2em;
   line-height: 1.5em;
 }
 
 .grid-2 {
-  margin: 50px 30px 140px;
+  margin: 50px 30px 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -247,6 +249,7 @@ strong {
 }
 
 .text-block-2.pronoun {
+  display: inline;
   margin-bottom: 0px;
   font-size: 18px;
 }
@@ -275,6 +278,59 @@ strong {
 .paragraph {
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+.footer {
+  margin-bottom: 40px;
+}
+
+.image-2 {
+  width: 32px;
+  height: 32px;
+}
+
+.emoji-image {
+  width: 32px;
+  height: 32px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.emoji-image.seedling {
+  -webkit-filter: brightness(133%);
+  filter: brightness(133%);
+}
+
+.emoji-image.dove {
+  -webkit-filter: brightness(137%);
+  filter: brightness(137%);
+}
+
+.emoji-image.microphone {
+  -webkit-filter: brightness(143%);
+  filter: brightness(143%);
+}
+
+.emoji-image.detective {
+  -webkit-filter: brightness(141%);
+  filter: brightness(141%);
+}
+
+.emoji-image.alien {
+  -webkit-filter: hue-rotate(70deg) brightness(200%);
+  filter: hue-rotate(70deg) brightness(200%);
+}
+
+.emoji-image.small {
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+.emoji-image.small.music-notes {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
 }
 
 @media screen and (max-width: 767px) {
