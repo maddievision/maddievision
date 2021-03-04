@@ -52,6 +52,12 @@ strong {
   border-radius: 100px;
 }
 
+.image.icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
   margin-top: 40px;
   margin-right: auto;
@@ -62,6 +68,8 @@ strong {
 }
 
 .heading {
+  display: inline-block;
+  overflow: visible;
   line-height: 50px;
 }
 
@@ -331,6 +339,12 @@ strong {
 .emoji-image.small.music-notes {
   -webkit-filter: brightness(200%);
   filter: brightness(200%);
+}
+
+.emoji-image.heading {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 767px) {
