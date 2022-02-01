@@ -43,14 +43,14 @@ strong {
 }
 
 .body {
-  background-color: #edeafd;
+  background-color: #190C57;
   font-family: Comfortaa, sans-serif;
-  color: #603a94;
+  color: #EDE1FF;
 }
 
-.image {
+/* .image {
   border-radius: 100px;
-}
+} */
 
 .image.icon {
   display: block;
